@@ -1,0 +1,168 @@
+body {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+b,
+strong {
+    color: blue;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.abc {
+    list-style-type: lower-alpha;
+}
+
+ul,
+ol {
+    padding: 0px 90px;
+}
+
+#mydiv1,
+#mydiv2,
+#mydiv3 {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    flex-direction: row;
+}
+
+#mydiv1 {
+    background-color: red;
+}
+
+#mydiv2 {
+    background-color: green;
+}
+
+#mydiv3 {
+    background-color: blue;
+}
+
+.main {
+    background-color: grey;
+    width: 810px;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Next*/
+
+#mydiv11,
+#mydiv21,
+#mydiv31 {
+    width: 250px;
+    height: 100px;
+    flex-direction: row;
+}
+
+#mydiv11 {
+    background-color: red;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#mydiv21 {
+    background-color: green;
+    justify-content: center;
+    margin: 10px;
+}
+
+#mydiv31 {
+    background-color: blue;
+    align-self: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main1 {
+    background-color: grey;
+    width: 810px;
+    height: 300px;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*3*/
+
+.wrapper {
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.l1_1,
+.l1_2,
+.l1_3,
+.l1_4,
+.l1_5,
+.l1_6 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.l2_1,
+.l2_2,
+.l2_3,
+.l2_4,
+.l2_5,
+.l2_6,
+.l2_7,
+.l2_8,
+.l2_9,
+.l2_10,
+.l2_11 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: row;
+}
+
+.l1_1 {
+    float: left;
+    background-color: red;
+}
+
+.l1_2 {
+    float: left;
+    margin-left: 60px;
+    background-color: green;
+}
+
+.l1_3,
+.l1_4,
+.l1_5,
+.l1_6 {
+    margin-left: 70px;
+}
+
+.l2_1 {
+    margin-right: 10px;
+    background-color: black;
+}
+
+.l2_2 {
+    margin-left: 10px;
+    
+}
+
+.l2_3 {
+    align-self: flex-end;
+    justify-content:flex-end;
+    background-color: yellow;
+}
